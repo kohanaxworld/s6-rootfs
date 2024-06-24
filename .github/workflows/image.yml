@@ -1,8 +1,11 @@
 name: Build docker s6-overlay rootfs image
+
 on:
   push:
     branches: master
+
 jobs:
+
   build:
     runs-on: ubuntu-latest
     steps:
@@ -18,7 +21,7 @@ jobs:
         with:
           config-inline: |
             [worker.oci]
-              max-parallelism = 8
+              max-parallelism = 16
       -
         name: Login to GitHub Container Registry
         uses: docker/login-action@v3

@@ -64,6 +64,6 @@ RUN set -eux \
 # Final stage
 FROM scratch AS s6-rootfs
 
-LABEL maintainer="Aleksandar Puharic <aleksandar@puharic.com>"
+LABEL maintainer="Kohana World Team <ga@koseven.ga>"
 
 COPY --from=rootfs-builder ["/rootfs-build/", "/"]

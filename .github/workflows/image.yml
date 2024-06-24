@@ -1,9 +1,7 @@
 name: Build docker s6-overlay rootfs image
-
 on:
   push:
     branches: master
-
 jobs:
   build:
     runs-on: ubuntu-latest

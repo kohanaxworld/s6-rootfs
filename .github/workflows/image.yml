@@ -20,7 +20,7 @@ jobs:
         with:
           config-inline: |
             [worker.oci]
-              max-parallelism = 16
+              max-parallelism = 8
       -
         name: Login to GitHub Container Registry
         uses: docker/login-action@v3

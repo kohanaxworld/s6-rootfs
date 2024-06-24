@@ -1,3 +1,5 @@
+[![Build docker s6-overlay rootfs image](https://github.com/kohanaxworld/s6-rootfs/actions/workflows/image.yml/badge.svg?branch=master)](https://github.com/kohanaxworld/s6-rootfs/actions/workflows/image.yml)
+
 ### S6-overlay rootfs
 
 The simplest and fastest way to get S6 supervisor in your image

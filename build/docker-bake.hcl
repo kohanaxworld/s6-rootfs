@@ -72,7 +72,7 @@ function "get-tags" {
     ],
     flatten([
       for extra_version in extra_versions : [
-        "ghcr.io/n0rthernl1ghts/s6-rootfs:${extra_version}"
+        "ghcr.io/kohanaxworld/s6-rootfs:${extra_version}"
       ]
     ])
   )
